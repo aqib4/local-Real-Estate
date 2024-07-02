@@ -1,0 +1,22 @@
+https://www.behance.net/gallery/198809819/Real-Estate-Website?tracking_source=search_projects|real+estate+website&l=18
+
+The goal:
+The goal is to create a 3-4 pages website for a real estate company.
+The design is already created and just need to implement it in
+HTML, CSS, JAVASCRIPT.
+
+1. Homepage/Landing page
+2. listing details page
+3. All listing page
+4. Contact us page
+
+Responsive
+
+The website will be responsive on all devices. 
+The breakdown will as follows
+
+For Mobile devices: 320px-480px
+For Tablets or iPad: 480px - 768px
+For Laptop or small-size screen: 768px -1024px
+For Desktop or large-size screen: 1024px -1200px
+For Extra-large size device: 1200px and more

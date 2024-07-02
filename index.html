@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <title>RealEState</title>
+  </head>
+  <body>
+    <!--Website Header start-->
+    <header>
+      <div class="header-logo">
+        <div class="logo">
+          <h1>LOGO</h1>
+        </div>
+      </div>
+      <!--Navigation Menu-->
+      <nav class="menu">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Listings</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Dashbaord</a></li>
+        </ul>
+      </nav>
+      <!--Header Buttons-->
+      <div class="header-CTA">
+        <div class="login-register-links">
+          <a href="#">Login</a>
+          <span>/</span>
+          <a href="#">Register</a>
+        </div>
+        <button class="header-Submit-CTA">Submit Properties</button>
+      </div>
+    </header>
+
+    <!--Header section end-->
+    <main>
+      <!--Hero section start-->
+      <section class="Home-Hero">
+        <div class="content-hero">
+          <h1>Find a home That <br />fits perfectly</h1>
+          <p>
+            We are a real estate Agency that will help you find the best
+            residene dream of you.
+          </p>
+          <div class="listing-search-hero">
+            <div class="listing-for-rent-search">
+              <button id="Rent-tab" aria-label="Search for properties to rent">
+                Rent
+              </button>
+              <form action="">
+                <div class="keyword-input">
+                  <label for="KEYWORD">KEYWORD</label>
+                  <input
+                    type="text"
+                    id="KEYWORD"
+                    placeholder="Search Keyword"
+                  />
+                </div>
+                <div class="location-input">
+                  <label for="LOCATION">LOCATION</label>
+                  <input
+                    type="text"
+                    name=""
+                    placeholder="Search Location"
+                    id="LOCATION"
+                  />
+                </div>
+                <div class="location-type-input">
+                  <label for="TYPE">TYPE</label>
+                  <select name="" id="TYPE">
+                    <option value="">All</option>
+                    <option value="">Islamabad</option>
+                    <option value="">Peshawer</option>
+                    <option value="">Quetta</option>
+                    <option value="">Lahore</option>
+                  </select>
+                </div>
+                <input
+                  type="submit"
+                  value="Search"
+                  class="listing-search-btn"
+                />
+              </form>
+            </div>
+            <div class="listing-for-sale-search"></div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image"></div>
+        </div>
+      </section>
+      <!--Hero section end-->
+
+      <!--properties categories/departments section Start-->
+      <section class="search-by-department">
+        <div class="search-depertament-heading">
+          <h2>
+            Property type <br />
+            <span>Try Searching For</span>
+          </h2>
+          <button>View all Services</button>
+        </div>
+        <div class="department-listings">
+          <img src="images/arrow-right.png" alt="" />
+
+          <!--apartement depratment-->
+          <div class="apartment">
+            <img src="images/flat.png" alt="" />
+            <span>Apartments</span>
+            <p>234 property</p>
+          </div>
+
+          <!--office depratment-->
+          <div class="Offices">
+            <img src="images/office-building.png" alt="" />
+            <span>Offices</span>
+            <p>1034 property</p>
+          </div>
+
+          <!--Villa depratment-->
+          <div class="Villa">
+            <img src="images/mansion.png" alt="" />
+            <span>Villa</span>
+            <p>134 property</p>
+          </div>
+
+          <!--Studio depratment-->
+          <div class="Studio">
+            <img src="images/studio.png" alt="" />
+            <span>Studio</span>
+            <p>94 property</p>
+          </div>
+
+          <!--Townhouse depratment-->
+          <div class="Townhouse">
+            <img src="images/townhouse.png" alt="" />
+            <span>Townhouse</span>
+            <p>824 property</p>
+          </div>
+
+          <!--Commercial depratment-->
+          <div class="Commercial">
+            <img src="images/store.png" alt="" />
+            <span>Commercial</span>
+            <p>204 property</p>
+          </div>
+
+          <img src="images/left-arrow.png" alt="" />
+        </div>
+      </section>
+      <!--properties categories/departments section  End-->
+
+      <!--Featured Listings section Start-->
+      <section class="Featured-listings-section">
+        <span>Featured Listings</span>
+        <h2>
+          Discover PRO-BUILDS Finest Properties <br />For your dreams Home
+        </h2>
+        <div class="featured-listings">
+          <!--Featured Listings 1 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container1">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">OFFICE</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Casa Lomas De Machali</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />15 window
+                  street,seatle,WA.</span
+                >
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />3</span>
+                  <span><img src="images/sink.png" alt="" />2</span>
+                  <span><img src="images/measure.png" alt="" />600 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Aprod endre</span>
+              <span>$847,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 1 end -->
+
+          <!--Featured Listings 2 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container2">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">APARTMENT</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Vella Del Mar Reatreat</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />110 Old
+                  street,North,MA.</span
+                >
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />4</span>
+                  <span><img src="images/sink.png" alt="" />4</span>
+                  <span><img src="images/measure.png" alt="" />900 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Ramei Ivetta</span>
+              <span>$1007,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 2 end -->
+
+          <!--Featured Listings 3 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container3">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">OFFICE</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Casa Lomas De Machali</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />15 window
+                  street,seatle,WA.</span
+                >
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />3</span>
+                  <span><img src="images/sink.png" alt="" />2</span>
+                  <span><img src="images/measure.png" alt="" />600 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Aprod endre</span>
+              <span>$847,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 3 end -->
+
+          <!--Featured Listings 4 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container4">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">VILLA</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Vancho vesta verdo</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />5 Magnoilia drive,
+                  Miami, FL.</span
+                >
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />4</span>
+                  <span><img src="images/sink.png" alt="" />2</span>
+                  <span><img src="images/measure.png" alt="" />700 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Kandri Atitila</span>
+              <span>$1047,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 4 end -->
+
+          <!--Featured Listings 5 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container5">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">APARTMENT</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Sorab Mohin Veacho</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />1092 highway, Tx,
+                  Downtown.</span
+                >
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />4</span>
+                  <span><img src="images/sink.png" alt="" />2</span>
+                  <span><img src="images/measure.png" alt="" />700 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Kandri Atitila</span>
+              <span>$177,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 5 end -->
+
+          <!--Featured Listings 6 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container6">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">STUDIO</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Kelao Boarad Silaway</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />9 street Halfway, CA,
+                  Downtown.</span
+                >
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />4</span>
+                  <span><img src="images/sink.png" alt="" />2</span>
+                  <span><img src="images/measure.png" alt="" />700 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Kandri Atitila</span>
+              <span>$177,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 6 end -->
+
+          <!--Featured Listings 7 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container7">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">STORE</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Yoshaow Monada Subway</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />925 old street,
+                  OA,City.
+                </span>
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />2</span>
+                  <span><img src="images/sink.png" alt="" />2</span>
+                  <span><img src="images/measure.png" alt="" />400 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Soari Medlao</span>
+              <span>$247,249/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings 7 end -->
+
+          <!--Featured Listings 8 start-->
+          <div class="property-listing">
+            <!--property Listings image section -->
+            <div class="property-image-container property-image-container8">
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">VILLA</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="property-content">
+              <h3>Yoshaow Monada Subway</h3>
+              <div class="property-feature">
+                <span
+                  ><img src="images/location.png" alt="" />15 willow street,
+                  Miami,Fl.
+                </span>
+                <div class="additional-features">
+                  <span><img src="images/single-bed.png" alt="" />5</span>
+                  <span><img src="images/sink.png" alt="" />4</span>
+                  <span><img src="images/measure.png" alt="" />700 SqFT</span>
+                </div>
+              </div>
+            </div>
+            <!--property Listings Content bottom section -->
+            <div class="property-Content-bottom">
+              <span>Kindi Attila </span>
+              <span>$707,929/<small>Sqft</small></span>
+            </div>
+          </div>
+          <!--Featured Listings8 end -->
+        </div>
+        <!--Featured listing Ends-->
+      </section>
+      <!--Featured Listings section End-->
+
+      <!--About Us section start-->
+      <section class="about-us">
+        <!--About Us Left section start-->
+        <div class="about-left-section">
+          <span>WHY CHOOSE US</span>
+          <h2>Discover What Sets Our Real Estate Expertise Apart</h2>
+          <p>
+            At Homeya, our unwavering commitment lies in crafting unparalleled
+            real estate journeys. Our seasoned professionals, armed with
+            extensive market knowledge, walk alongside you through every phase
+            of your property endeavor. We prioritize understanding your unique
+            aspirations, tailoring our expertise to match your vision.
+          </p>
+          <div class="About-inner-section">
+            <span
+              ><img src="images/check.png" alt="" />Transparent
+              Partnerships</span
+            >
+            <span
+              ><img src="images/check.png" alt="" />Customized Solutions</span
+            >
+            <span><img src="images/check.png" alt="" />Proven Expertise</span>
+            <span
+              ><img src="images/check.png" alt="" />Local Area Knowledge</span
+            >
+          </div>
+          <button>
+            Contact Us <img src="images/right-arrow.png" alt="" />
+          </button>
+        </div>
+        <!--About Us Left section End-->
+        <!--About Us Right section start-->
+        <div class="about-right-section">
+          <!--Buy A  Home section start-->
+          <div class="buy-home-box box">
+            <img src="images/townhouse.png" alt="" />
+            <div class="buy-home-box-describtion describtion">
+              <h3>Buy A New Home</h3>
+              <p>
+                Explore diverse properties and expert guidance for a seamless
+                buying experience.
+              </p>
+              <button>
+                Learn More <img src="images/right-arrow.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <!--Buy A  Home section end-->
+
+          <!--Rent A Home section start-->
+          <div class="Rent-home-box box">
+            <img src="images/store.png" alt="" />
+            <div class="Rent-home-box-describtion describtion">
+              <h3>Rent A Home</h3>
+              <p>
+                Explore a diverse variety of listings tailored precisely to suit
+                your unique lifestyle needs.
+              </p>
+              <button>
+                Learn More <img src="images/right-arrow.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <!--Rent A Home  section end-->
+
+          <!--Sell A Home section start-->
+          <div class="Sell-home-box box">
+            <img src="images/villa.png" alt="" />
+            <div class="Rent-home-box-describtion describtion">
+              <h3>Sell A Home</h3>
+              <p>
+                Showcasing your property's best features for a successful sale.
+              </p>
+              <button>
+                Learn More <img src="images/right-arrow.png" alt="" />
+              </button>
+            </div>
+          </div>
+          <!--Sell A Home  section end-->
+        </div>
+        <!--About Us Right section End-->
+      </section>
+      <!--About Us section End-->
+
+      <!--Location section start-->
+      <section class="Property-Locations">
+        <span>Explore Cities</span>
+        <h2>Our Location For you</h2>
+
+        <div class="Location-cards">
+          <div class="city-card card1">
+            <img src="images/1.png" alt="" />
+            <h3>Cape Town, south Africa</h3>
+            <span>230 Property</span>
+          </div>
+
+          <div class="city-card card2">
+            <img src="images/2.png" alt="" />
+            <h3>Cape Town, south Africa</h3>
+            <span>230 Property</span>
+          </div>
+
+          <div class="city-card card3">
+            <img src="images/3.png" alt="" />
+            <h3>Cape Town, south Africa</h3>
+            <span>230 Property</span>
+          </div>
+
+          <div class="city-card card4">
+            <img src="images/4.png" alt="" />
+            <h3>Cape Town, south Africa</h3>
+            <span>230 Property</span>
+          </div>
+
+          <div class="city-card card5">
+            <img src="images/13.png" alt="" />
+            <h3>Cape Town, south Africa</h3>
+            <span>230 Property</span>
+          </div>
+
+          <div class="city-card card6">
+            <img src="images/14.png" alt="" />
+            <h3>Cape Town, south Africa</h3>
+            <span>230 Property</span>
+          </div>
+        </div>
+      </section>
+      <!--Location section End-->
+
+      <!--Top Listings section Start-->
+      <section class="Top-listings-section">
+        <div class="top-listings-section-head">
+          <h2><span>Top Listings</span>Best Property Value</h2>
+          <button>View All</button>
+        </div>
+
+        <div class="Top-listings">
+          <!--Top Listings 1 start-->
+          <div class="top-property-listing">
+            <!--property Listings image section -->
+            <div
+              class="top-property-image-container top-property-image-container1"
+            >
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">OFFICE</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="top-property-content">
+              <!--property Listings Content Top section -->
+              <div class="property-content-top">
+                <h3>Casa Lomas De Machali</h3>
+                <div class="property-feature">
+                  <span
+                    ><img src="images/location.png" alt="" />15 window
+                    street,seatle,WA.</span
+                  >
+                  <div class="additional-features">
+                    <span><img src="images/single-bed.png" alt="" />3</span>
+                    <span><img src="images/sink.png" alt="" />2</span>
+                    <span><img src="images/measure.png" alt="" />600 SqFT</span>
+                  </div>
+                </div>
+              </div>
+              <!--property Listings Content bottom section -->
+              <div class="property-Content-bottom">
+                <span>Aprod endre</span>
+                <span>$847,929/<small>Sqft</small></span>
+              </div>
+            </div>
+          </div>
+          <!--Top Listings 1 end -->
+
+          <!-- Top Listings 2 start -->
+          <div class="top-property-listing">
+            <!--property Listings image section -->
+            <div
+              class="top-property-image-container top-property-image-container2"
+            >
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">APARTMENT</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="top-property-content">
+              <!--property Listings Content Top section -->
+              <div class="property-content-top">
+                <h3>Vella Del Mar Reatreat</h3>
+                <div class="property-feature">
+                  <span
+                    ><img src="images/location.png" alt="" />110 Old
+                    street,North,MA.</span
+                  >
+                  <div class="additional-features">
+                    <span><img src="images/single-bed.png" alt="" />4</span>
+                    <span><img src="images/sink.png" alt="" />4</span>
+                    <span><img src="images/measure.png" alt="" />900 SqFT</span>
+                  </div>
+                </div>
+              </div>
+              <!--property Listings Content bottom section -->
+              <div class="property-Content-bottom">
+                <span>Ramei Ivetta</span>
+                <span>$1007,929/<small>Sqft</small></span>
+              </div>
+            </div>
+          </div>
+          <!--Top Listings 2 end -->
+
+          <!--Top Listings 3 start-->
+          <div class="top-property-listing">
+            <!--property Listings image section -->
+            <div
+              class="top-property-image-container top-property-image-container3"
+            >
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">OFFICE</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+
+            <!--property Listings Content section -->
+            <div class="top-property-content">
+              <!--property Listings Content Top section -->
+              <div class="property-content-top">
+                <h3>Casa Lomas De Machali</h3>
+                <div class="property-feature">
+                  <span
+                    ><img src="images/location.png" alt="" />15 window
+                    street,seatle,WA.</span
+                  >
+                  <div class="additional-features">
+                    <span><img src="images/single-bed.png" alt="" />3</span>
+                    <span><img src="images/sink.png" alt="" />2</span>
+                    <span><img src="images/measure.png" alt="" />600 SqFT</span>
+                  </div>
+                </div>
+              </div>
+              <!--property Listings Content bottom section -->
+              <div class="property-Content-bottom">
+                <span>Aprod endre</span>
+                <span>$847,929/<small>Sqft</small></span>
+              </div>
+            </div>
+          </div>
+          <!--Featured Listings 3 end -->
+
+          <!--Featured Listings 4 start-->
+          <div class="top-property-listing">
+            <!--property Listings image section -->
+            <div
+              class="top-property-image-container top-property-image-container4"
+            >
+              <div class="property-tags">
+                <span>Featured</span>
+                <span>For Sale</span>
+                <span class="category-tag">VILLA</span>
+              </div>
+              <div class="property-actions">
+                <img src="images/heart (1).png" alt="" />
+                <img src="images/arrows.png" alt="" />
+                <img src="images/interface.png" alt="" />
+              </div>
+            </div>
+            <!--property Listings Content section -->
+            <div class="top-property-content">
+              <!--property Listings Content top section -->
+              <div class="property-content-top">
+                <h3>Vancho vesta verdo</h3>
+                <div class="property-feature">
+                  <span
+                    ><img src="images/location.png" alt="" />5 Magnoilia drive,
+                    Miami, FL.</span
+                  >
+                  <div class="additional-features">
+                    <span><img src="images/single-bed.png" alt="" />4</span>
+                    <span><img src="images/sink.png" alt="" />2</span>
+                    <span><img src="images/measure.png" alt="" />700 SqFT</span>
+                  </div>
+                </div>
+              </div>
+              <!--property Listings Content bottom section -->
+              <div class="property-Content-bottom">
+                <span>Kandri Atitila</span>
+                <span>$1047,929/<small>Sqft</small></span>
+              </div>
+            </div>
+          </div>
+          <!--Featured Listings 4 end -->
+        </div>
+        <!--Top listing Ends-->
+      </section>
+      <!--Top Listings section End-->
+
+      <!--Blog section Start-->
+      <section class="Blog-section">
+        <!--Blog head section Start-->
+        <div class="Blog-section-head">
+          <h2><span>LATEST NEWS</span>Helpful Homeya Guides</h2>
+        </div>
+        <!--Blog head section End-->
+        <!--Blog section Body Start-->
+        <div class="blog-body">
+          <div class="blog-card blog">
+            <img src="images/14.png" alt="" />
+            <span class="blog-published-date">17 Januray, 2024</span>
+            <div class="blog-card-tags">
+              <p>Esther</p>
+              <p>furniture</p>
+            </div>
+            <h2>
+              Building Gains Into Housing Stocks And How To Trade The Sector
+            </h2>
+            <p>
+              The average contract interest rate for 30-year fixed-rate
+              mortgages with conforming loan balances...
+            </p>
+          </div>
+          <div class="blog-card blog">
+            <img src="images/3.png" alt="" />
+            <span class="blog-published-date">11 Januray, 2024</span>
+            <div class="blog-card-tags">
+              <p>Angel</p>
+              <p>Interior</p>
+            </div>
+            <h2>
+              92% Of Millennial Homebuyers Say Inflation Has Impacted Their
+              Plans
+            </h2>
+            <p>
+              Mortgage applications to purchase a home, however, dropped 4% last
+              week compared...
+            </p>
+          </div>
+          <div class="blog-card blog">
+            <img src="images/7.png" alt="" />
+            <span class="blog-published-date">1 Januray, 2024</span>
+            <div class="blog-card-tags">
+              <p>Colleen</p>
+              <p>Architecture</p>
+            </div>
+            <h2>We Are Hiring ‘moderately,’ Says Compass CEO</h2>
+            <p>
+              New listings were down 20% year over year in March, according to
+              Realtor.com, and total inventory...
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Blog section End-->
+
+      <!--team section Start-->
+      <section class="Team-section">
+        <div class="team-section-head">
+          <span>Meet our Agents</span>
+          <h2>Our Team</h2>
+        </div>
+        <div class="team">
+          <div class="team-agent">
+            <img src="images/111.png" alt="" />
+            <div class="agent-info">
+              <h3>Sheri<span>CEO & Founder</span></h3>
+              <img src="images/old-telephone-ringing.png" alt="" />
+            </div>
+          </div>
+          <div class="team-agent">
+            <img src="images/2222.png" alt="" />
+            <div class="agent-info">
+              <h3>Mehroon Zek<span>Co-Founder and Manager</span></h3>
+              <img src="images/old-telephone-ringing.png" alt="" />
+            </div>
+          </div>
+          <div class="team-agent">
+            <img src="images/322.png" alt="" />
+            <div class="agent-info">
+              <h3>Hishey Rapon<span>Marketing And Sales</span></h3>
+              <img src="images/old-telephone-ringing.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Team section End-->
+
+      <!--testimonials section Start-->
+      <div class="testimonial-section">
+        <div class="testimonial-head">
+          <h2><span>Our Testimonials</span>What People's Say's</h2>
+        </div>
+        <div class="testimonials">
+          <div class="testimonies">
+            <div class="stars">
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+            </div>
+            <span>
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sapiente rem amet atque, provident labore sit iusto omnis quod
+              eligendi ut illum illo ipsam velit incidunt quas porro molestias
+              itaque maiores."
+            </span>
+            <div class="testimonies-info">
+              <img src="images/111.png" alt="" />
+              <h3>Liom Kenmay<span>CEO DigitalTech</span></h3>
+            </div>
+          </div>
+          <div class="testimonies">
+            <div class="stars">
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+            </div>
+            <span>
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sapiente rem amet atque, provident labore sit iusto omnis quod
+              eligendi ut illum illo ipsam velit incidunt quas porro molestias
+              itaque maiores."
+            </span>
+            <div class="testimonies-info">
+              <img src="images/2222.png" alt="" />
+              <h3>semmy smith<span>Broker Frieght</span></h3>
+            </div>
+          </div>
+          <div class="testimonies">
+            <div class="stars">
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+              <img src="images/star-solid.svg" alt="" />
+            </div>
+            <span>
+              " Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sapiente rem amet atque, provident labore sit iusto omnis quod
+              eligendi ut illum illo ipsam velit incidunt quas porro molestias
+              itaque maiores."
+            </span>
+            <div class="testimonies-info">
+              <img src="images/322.png" alt="" />
+              <h3>john vesels<span>Expert Traders</span></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--testimonials section End-->
+
+      <!--footer section Start-->
+      <section class="footer">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="images/logo.png" alt="" />
+          </div>
+          <div class="social-media">
+            <span>Follow Us</span>
+            <img src="images/social.png" alt="" />
+            <img src="images/social (1).png" alt="" />
+            <img src="images/social (2).png" alt="" />
+            <img src="images/youtube.png" alt="" />
+          </div>
+        </div>
+        <div class="footer-body">
+          <div class="footer-first-col">
+            <p>
+              Specialize in providing high-class tour for those in need. Contact
+              Us
+            </p>
+            <span
+              ><img src="images/location.png" alt="" />101 E8 129th str, East
+              Chicago, IN 28282, US</span
+            >
+            <span
+              ><img src="images/old-telephone-ringing.png" alt="" />(312) 620
+              92-29</span
+            >
+            <span
+              ><img src="images/location.png" alt="" />ingoud@gmail.com</span
+            >
+          </div>
+        </div>
+      </section>
+      <!--footer section End-->
+    </main>
+  </body>
+</html>

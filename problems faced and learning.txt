@@ -1,0 +1,12 @@
+1. search form hiding under image issues:
+   
+   descirbiton: So on the right side ,we have a form that was hiding under the image of the other colum , it was challenge for me
+   to set this form above the image. i tried and spend alot of time on it, and finally i got the answer
+
+   Solution: i added this code to the form div
+             position : absolute
+             z-index: 1.
+
+2.
+
+ 
